@@ -4,7 +4,7 @@ Makes your function only be called with a maximum concurrency `limit`. Further c
 
 ## Synopsis
 
-```
+```js
 const limitFnParallelism = require('limit-fn-parallelism')
 const limitedFn = limitFn(async function expensiveFn(arg1, arg2) {
     // do something expensive asynchronously...
